@@ -1,10 +1,10 @@
 ---
-title: "AWS NASA Rover Hackathon"
+title: "AWS JPL Rover Workshop"
 chapter: true
 weight: 1
 ---
 
-# AWS NASA Rover Hackathon
+# AWS JPL Rover Workshop
 
 Welcome! The exploration of space continues to occur at a rapid pace. We want you to journey to Mars and use your skills to improve how rovers on the Red Planet help unlock the secrets of the universe.
 
