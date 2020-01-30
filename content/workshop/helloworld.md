@@ -1,7 +1,7 @@
 ---
 title: "Activity #1: Hello Robot Simulation"
 chapter: true
-weight: 4
+weight: 5
 description: In this activity you will setup a development environment and build, bundle, and simulate a "Hello World" application.
 ---
 
