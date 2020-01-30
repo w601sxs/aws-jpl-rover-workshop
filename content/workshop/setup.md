@@ -1,7 +1,7 @@
 ---
 title: "Prep: Workshop Setup"
 chapter: true
-weight: 3
+weight: 4
 description: We will start by setting up your AWS account to develop robot applications with AWS RoboMaker. 
 ---
 
