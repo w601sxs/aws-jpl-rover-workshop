@@ -1,27 +1,30 @@
 ---
-title: "Activity #2: Find Fido, Dog Finder Robot"
+title: "Getting Started"
 chapter: true
-weight: 8
+weight: 3
 description: In this activity you will explore other methods for building and deploying applications in the development environment, and see how an application can directly interact with AWS services in a ROS native manner (nodes and topics), and how any AWS service can be used through normal SDK calls (python boto3 in this instance).
 ---
 
-# Cloud service integration to do object detection
+# What are the rules?
 
-![2_dog](../../images/2_dog.jpg)
+Simply put - you must train an RL agent to successfully navigate the Rover to a predetermined checkpoint on Mars.
 
-Our objective: Find Fido!
+The below images show the NASA-JPL Open Source Rover (on the left) and your digital version of the Rover on the right
 
-This activity covers working with a robot application that integrates with other AWS services. The robot will work in virtual world and turn and detect images, looking for one includes a dog.
+We have simplified the action space to three discrete options:
+1. Turn left
+2. Turn right
+3. Stay Straight
 
-When complete, you will have learned:
+We have set the Rover to use a constant, even linear acceleration, in other words, you cannot make the Rover go faster or slower at this time. Wall Time is not a factor in the scoring mechanism.
 
-* Using commands in the terminal to build and bundle our applications
-* Submitting a simulation job programmatically from the command line
-* Reviewing the output of Gazebo against CloudWatch logs posts directly from the robot
-* Show how robot camera output can be sent to Kinesis Video Streams for further use
-* Use `rostopic` commands to send a message to the robot to restart it's goal seeking once the dog image has been found
+The RL-agent leverages rl_coach to manage the training process. In this workshop, we will use a clipped PPO algorithm but you are free to use a different algorithm
 
-## Activity tasks
+Your RL-agent must navigate the Rover to a checkpoint (see image below):
+
+![Mars Map](/static/marsmap.jpg)
+
+# Getting started
 
 
 1. For this activity, you will be using **three terminal tabs** to work side-by-side on the simulation and robot application directories, while using the third tab for working with the operating system.
