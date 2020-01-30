@@ -1,4 +1,4 @@
-# robomaker workshop
+# AWS JPL Rover workshop
 
 ### Setup:
 
@@ -25,11 +25,6 @@ If you are on a Windows machine and use Scoop for package management, you can in
 From wherever you checkout repos:
 `git clone git@github.com:jerwallace/aws-robotics-day.git` (or your fork)
 
-#### Clone the theme submodule:
-`cd eksworkshop`
-
-`git submodule init` ;
-`git submodule update`
 
 #### Install Node.js and npm:
 You can follow instructions from npm website: https://www.npmjs.com/get-npm
