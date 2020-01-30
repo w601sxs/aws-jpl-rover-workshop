@@ -22,7 +22,7 @@ The RL-agent leverages rl_coach to manage the training process. In this workshop
 
 Your RL-agent must navigate the Rover to a checkpoint (see image below):
 
-![Mars Map](marsmap.jpg)
+![Mars Map](/static/marsmap.jpg)
 
 # Scoring Algorithm
 
